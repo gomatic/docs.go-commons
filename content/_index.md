@@ -16,7 +16,7 @@ go get github.com/gomatic/go-commons
 ## Packages
 
 | Package | Import path | What's in it |
-|---------|-------------|--------------|
+| --- | --- | --- |
 | [`commons`](https://pkg.go.dev/github.com/gomatic/go-commons) | `github.com/gomatic/go-commons` | `IsNil` (catches typed nils), `Must`, `Cast` |
 | [`digest`](https://pkg.go.dev/github.com/gomatic/go-commons/digest) | `github.com/gomatic/go-commons/digest` | `SHA256`, `SHA512` — hex hashes of a byte slice |
 | [`ptr`](https://pkg.go.dev/github.com/gomatic/go-commons/ptr) | `github.com/gomatic/go-commons/ptr` | `To` (value → pointer), `Val` (pointer → value, nil-safe) |
